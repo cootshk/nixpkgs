@@ -5155,6 +5155,14 @@
     githubId = 32609395;
     name = "B YI";
   };
+  cootshk = {
+    name = "Cootshk";
+    email = "cootshk@duck.com";
+    matrix = "@cootshk:matrix.org";
+    github = "cootshk";
+    githubId = 83678457;
+    keys = [ { fingerprint = "2912 0329 04C7 7F6B E291  6D6F 72BB 2607 F96B 24E6"; } ];
+  };
   corbanr = {
     email = "corban@raunco.co";
     github = "CorbanR";
