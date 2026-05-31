@@ -159,10 +159,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
       and keep them up to date, all in one neat little package
     '';
     homepage = "https://modrinth.com";
-    license = with lib.licenses; [
-      gpl3Plus
-      unfreeRedistributable
-    ];
+    license = lib.licenses.gpl3Plus;
     maintainers = with lib.maintainers; [
       getchoo
       hythera
